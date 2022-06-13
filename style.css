@@ -4,39 +4,71 @@
     font-size: 100px;
     text-align: center;
     color:rgb(158, 187, 140);
-    padding: 20px;
+    padding: 50px;
 }
-
+.navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin: 40px;
+    vertical-align: middle;
+    color:rgb(186, 207, 172);
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 30px;
+}
 p {
     font-family: 'Verdana', 'Garamond', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
+    opacity: 50%;
 }
 
 .intro{
     float: left;
-    width: 20%;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.intro p{
+    padding-bottom: 40px;
+    border-bottom-style: solid;
+    border-color:rgb(196, 218, 182);
 }
 .intro img{
     width: 100%;
     height: auto;
     border-radius: 10%;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .blog{
     float: left;
-    width: 70%;
-    padding: 20px; 
+    width: 60%;
     border-left-style: solid;
     border-color:rgb(196, 218, 182);
     
 }
+.post{
+    padding: 40px;
+}
 .subheading{
     font-family: 'Georgia', serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     color:rgb(158, 187, 140);
+}
+.date{
+    color:rgb(186, 207, 172);
+    font-size: 18px;
 }
 .description{
     width: 100%;
@@ -49,9 +81,9 @@ p {
     padding: 10px;
     text-align: center;
     color:rgb(158, 187, 140);
+    font-size: 18px;
 }
 .recipe img{
     width: 100%;
     height: auto;
-    border-radius: 10%;
 }

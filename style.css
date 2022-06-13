@@ -60,11 +60,18 @@ p, .post li {
 .post{
     padding: 40px;
 }
+.post img{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
 .subheading{
     font-family: 'Georgia', serif;
     font-weight: bold;
     font-size: 50px;
     color:rgb(158, 187, 140);
+    margin-bottom: 10px;
 }
 .date{
     color:rgb(186, 207, 172);
@@ -86,7 +93,7 @@ p, .post li {
     font-family: 'Georgia', serif;
     font-weight: bold;
     font-size: 28px;
-    color:rgb(158, 187, 140);
+    color: rgb(186, 207, 172);
 }
 
 .recipe{
